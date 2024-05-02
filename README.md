@@ -44,9 +44,9 @@ Don't forget to add the new hosts to the inventory
 
 ## Docker image
 
-I am using an image based on tumbleweed with the basic packages to run this lab, I did not install systemd (I started the SSH service old school style) so as not to make the image heavy.
+I'm using an image based on [openSUSE Tumbleweed](https://get.opensuse.org/tumbleweed/) with the basic packages to run this lab, I did not install systemd (*I started the SSH service old school style*) in order to don't make this image bigger.
 
-You can find the image on Doccker HUB
+You can find the image on Docker HUB
 
 https://hub.docker.com/r/theovercloud/osuseansible
 
