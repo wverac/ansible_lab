@@ -64,5 +64,5 @@ Contact:
 # TODO
 - Create a dynamic inventory according to the number of nodes scaled
 - Add a debian image as node option
-- Add troubleshooting packages to the control the image 
+- Add troubleshooting packages to the control image 
 - Add screenshots
