@@ -40,18 +40,19 @@ Or pass the parameter when starting the lab
 docker-compose up --scale tumbleweed=6
 ```
 Don't forget to add the new hosts to the inventory 
-(files/inventory)[files/inventoryl] 
+[files/inventory](files/inventory) 
 
 ## Docker image
 
 I am using an image based on tumbleweed with the basic packages to run this lab, I did not install systemd (I started the SSH service old school style) so as not to make the image heavy.
 
 You can find the image on Doccker HUB
+
 https://hub.docker.com/r/theovercloud/osuseansible
 
 You can also find the dockerfile in this repo
 
-(image/Dockerfile)[image/Dockerfilel]
+[image/Dockerfile](image/Dockerfile)
 
 ---
 
