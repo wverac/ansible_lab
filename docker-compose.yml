@@ -1,0 +1,18 @@
+#version: '1.0'
+services:
+    control:
+      image: theovercloud/osuseansible:1.0
+      container_name: control
+      hostname: control
+      volumes:
+          - $PWD/files:/tmp/files:ro
+      command: ["bash", "/tmp/files/setup.sh"]
+    tumbleweed:
+      image: theovercloud/osuseansible:1.0
+      depends_on:
+          - control
+      volumes:
+          - $PWD/files:/tmp/files:ro
+      command: ["bash", "/tmp/files/setup.sh"]
+      scale: 3
+        
