@@ -31,7 +31,7 @@ ansible all -m ping -o
 
 # Notes
 ## Scale nodes
-This lab has 3 nodes in addition to the control node initially, but you can scale by editing (docker-compose.yml)[docker-compose.yml] file, e.g.
+This lab has 3 nodes in addition to the control node initially, but you can scale by editing [docker-compose.yml](docker-compose.yml) file, e.g.
 ```bash
 scale: 6
 ```
