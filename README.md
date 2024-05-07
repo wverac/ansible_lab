@@ -4,7 +4,7 @@ Personal ansible lab with docker compose based on openSUSE Tumbleweed
 # Usage
 Pull the image
 ```bash
-docker pull theovercloud/osuseansible
+docker pull theovercloud/osuseansible -a
 ```
 Clone this repo
 ```bash
