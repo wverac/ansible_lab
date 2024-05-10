@@ -13,6 +13,8 @@ git clone https://github.com/wverac/ansible_lab.git
 Create a new pair of SSH Keys
 ```bash
 cd ansible_lab
+```
+```bash
 ssh-keygen -q -N '' -f files/ansiblelab
 ```
 Start the lab
