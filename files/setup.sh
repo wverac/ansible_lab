@@ -9,7 +9,7 @@ if [ "$(hostname)" == "control" ]; then
     sleep infinity
       else
     mkdir -p ~/.ssh
-    cp /tmp/files/ansiblelab.pub ~/.ssh/authorized_keys
+    cp /tmp/files/ansiblelab_key.pub ~/.ssh/authorized_keys
     chmod 600 ~/.ssh/authorized_keys
     echo "node deployed"
     /usr/sbin/sshd -D 
