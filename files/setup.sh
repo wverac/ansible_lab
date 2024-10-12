@@ -2,7 +2,7 @@
 
 if [ "$(hostname)" == "control" ]; then
     mkdir -p ~/.ssh
-    cp /tmp/files/ansiblelab ~/.ssh/id_dsa
+    cp /tmp/files/ansiblelab_key ~/.ssh/id_dsa
     cp /tmp/files/inventory ~/inventory
     cp /tmp/files/ansible.cfg ~/ansible.cfg 
     echo "w00t!"
