@@ -61,9 +61,6 @@ If you prefer use a [Debian](https://www.debian.org/) image, I also made a small
 ```bash
 docker pull theovercloud/debianansible -a
 ```
-
-## Screenshots
-
 ---
 
 Contact:
