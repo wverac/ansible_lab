@@ -15,11 +15,11 @@ Create a new pair of SSH Keys
 cd ansible_lab
 ```
 ```bash
-ssh-keygen -q -N '' -f files/ansiblelab
+ssh-keygen -q -N '' -f files/ansiblelab_key
 ```
 Start the lab
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 Login into control node
 ```bash
@@ -56,6 +56,14 @@ You can also find the dockerfile in this repo
 
 [image/Dockerfile](image/Dockerfile)
 
+If you prefer use a [Debian](https://www.debian.org/) image, I also made a small one for this lab:  
+
+```bash
+docker pull theovercloud/debianansible -a
+```
+
+## Screenshots
+
 ---
 
 Contact:
@@ -65,6 +73,6 @@ Contact:
 
 # TODO
 - Create a dynamic inventory according to the number of nodes scaled
-- Add a debian image as node option
-- Add troubleshooting packages to the control image 
-- Add screenshots
+- ~~Add a debian image as node option~~
+- ~~Add troubleshooting packages to the control image~~ 
+- ~~Add screenshots~~
